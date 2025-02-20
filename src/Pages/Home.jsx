@@ -1,9 +1,16 @@
+import Popup from "../Components/Popup/Popup";
+
 const Home = () => {
   return (
-    <div className="flex justify-center h-screen">
-      <h1 className="text-6xl font-bold text-black text-center my-auto hover:text-red-500">
-        Daily Talim
-      </h1>
+    <div >
+      <div className="flex justify-center mb-2">
+        <h1 className="">
+          Daily Talim
+        </h1>
+      </div>
+      <div>
+        <Popup/>
+      </div>
     </div>
   );
 };
